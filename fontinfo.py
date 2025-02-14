@@ -358,7 +358,7 @@ def modify(args):
 			set_string(preferred_style, NAME_ID['PREFERRED_STYLE'], plat_id, enc_id, lang_id, table)
 			if unique_id:
 				set_string(unique_id, NAME_ID['UNIQUE_ID'], plat_id, enc_id, lang_id, table)
-			if USE_WIN_STYLES:
+			if args.style or USE_WIN_STYLES:
 				set_string(style, NAME_ID['STYLE'], plat_id, enc_id, lang_id, table)
 
 		# CFF table naming for CFF fonts (only)
