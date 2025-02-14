@@ -31,11 +31,6 @@ python fontinfo.py -d "old string" -n "new string" "path/to/font.ttf"
 python fontinfo.py -f "New Family Name" "font1.ttf" "font2.ttf" "font3.ttf"
 ```
 
-### Show Help Message
-```
-python fontinfo.py -h
-```
-
 ## Options
 
 | Option | Description |
@@ -44,6 +39,7 @@ python fontinfo.py -h
 | `-d`, `--old-string` | Specify string to be replaced |
 | `-n`, `--new-string` | Specify replacement string |
 | `-w`, `--win` | Enable Windows-compatible style naming |
+| `-h`, `--help` | Show help message |
 
 ## Notes
 
